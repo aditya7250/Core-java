@@ -1,0 +1,21 @@
+package Prime_Question;
+import java.util.Scanner;
+public class CheckPrime1 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       Scanner sc =new Scanner(System.in) ;
+    	   int n = sc.nextInt();
+    	   int count = 0;
+    	   System.out.println("Enter Any Number");
+    	   for (int i=2; i<n; i++) {
+    		   if(n%i==0) {
+    			   count++;
+    		   }}
+    	   if (count==1)
+    		   System.out.println("Prime");
+    	   else 
+    		   System.out.println(" Not prime");
+    	   }
+    		   }
+    	   
+	
